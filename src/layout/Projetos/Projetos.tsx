@@ -7,8 +7,7 @@ export const Projetos = () => {
               <div className="row align-items-md-stretch">
                 <div className="col-md-6">
                   
-                  <img
-                    src={require("../../Images/PublicImages/java-logo-1.png")}
+                  <video src='https://drive.google.com/file/d/1-Ucv04zcfQmuJ4nLnG1nXi3cEx6QIXOY/view?usp=sharing'
                   />
                   <h2 className="fw-normal">Java</h2>
                   <p>
