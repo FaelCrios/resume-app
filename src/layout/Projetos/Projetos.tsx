@@ -11,9 +11,7 @@ export const Projetos = () => {
                   />
                   <h2 className="fw-normal">Java</h2>
                   <p>
-                    Some representative placeholder content for the three
-                    columns of text below the carousel. This is the first
-                    column.
+                    ADASDADASDASASDASDASDASDASDASDASD
                   </p>
                 </div>
 
@@ -37,8 +35,7 @@ export const Projetos = () => {
 
                   <h2 className="fw-normal">TypeScript</h2>
                   <p>
-                    And lastly this, the third column of representative
-                    placeholder content.
+                   DASDASDASDASDASDASDASDASDASDASDSDASDASDASDSADASDASDASD
                   </p>
                 </div>
                 
