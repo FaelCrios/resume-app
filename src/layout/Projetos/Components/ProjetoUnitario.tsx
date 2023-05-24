@@ -9,7 +9,6 @@ export const ProjetoUnitario: React.FC<{
     <div className="col-md-6">
     <div className="h-100 p-5 bg-body-tertiary border rounded-3">
       <a
-        className=""
         href={props.url}
       >
         <img
