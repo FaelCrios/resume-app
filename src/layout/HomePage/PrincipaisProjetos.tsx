@@ -11,8 +11,9 @@ export const PrincipaisProjetos: React.FC<{
       <div className="container-fluid py-4 text-start">
         <h1 className="display-5 fw-bold fs-4 ">{props.titulo}</h1>
         <p className=" fs-6 text-start">{props.texto}</p>
-        <div className="row align-items-md-stretch">
-          <div className="col-md-6">
+        <div className="container text-center">
+          <div className="row">
+            <div className="col-sm-0 col-md-6">
             <Link to={`/projeto/${props.url}`}>
               <button className="btn btn-outline-secondary " type="button">
                 Ver mais
@@ -20,12 +21,13 @@ export const PrincipaisProjetos: React.FC<{
             </Link>
           </div>
 
-          <div className="col-md-6">
+          <div className="col-sm-0 col-md-6">
             <a href={props.github}>
               <button className="btn btn-outline-secondary " type="button">
                 Ver no github
               </button>
             </a>
+          </div>
           </div>
         </div>
       </div>
