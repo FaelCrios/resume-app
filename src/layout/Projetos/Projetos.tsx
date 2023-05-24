@@ -52,7 +52,7 @@ export const Projetos = () => {
               img="condadoFoto.png"
               titulo="Forum de Senhor dos anéis - Condado"
               paragrafo="Desenvolvido em uma maratona de programação, este projeto foi desenvolvido com React.js e Next com o intuito de ser um forum e um bate papo"
-              width="300"
+              width="299"
             />
           </div>
         </div>
