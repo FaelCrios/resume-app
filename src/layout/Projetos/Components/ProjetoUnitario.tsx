@@ -7,7 +7,7 @@ export const ProjetoUnitario: React.FC<{
 }> = (props) => {
   return (
     <div className="col-md-6">
-    <div className="h-100 p-5 bg-body-tertiary border rounded-3">
+    <div className="h-100 p-5 bg-body-tertiary border rounded-3 py-5 px-4">
       <a
         href={props.url}
       >
@@ -17,8 +17,8 @@ export const ProjetoUnitario: React.FC<{
           width={props.width} 
         />
       </a>
-      <h2 className="fw-normal">{props.titulo}</h2>
-      <p>
+      <h2 className="fw-normal fs-4 ">{props.titulo}</h2>
+      <p className="fs-7">
         {props.paragrafo}
       </p>
     </div>

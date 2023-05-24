@@ -6,7 +6,7 @@ export const Carousel: React.FC<{
   width: any;
 }> = (props) => {
   return (
-    <div id="carouselExampleCaptions" className="carousel slide bg-black pb-5 pt-5 w-100 h-100 my-1" >
+    <div id="carouselExampleCaptions" className="carousel slide bg-black pb-5 pt-5 w-100 h-100 my-1 rounded-5" >
       <div className="carousel-indicators">
         <button
           type="button"
@@ -27,6 +27,12 @@ export const Carousel: React.FC<{
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide-to="2"
           aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
         ></button>
       </div>
       <div className="carousel-inner">
@@ -68,6 +74,18 @@ export const Carousel: React.FC<{
           <div className="carousel-caption d-none d-md-block">
             <h5>React.js</h5>
             <p>Framework que possuo mais afinidade para desenvolvimento front-end.</p>
+          </div>
+        </div>
+        <div className="carousel-item">
+          <img
+            src={require(`../../../Images/PublicImages/${props.img4}`)}
+            className="d-center opacity-50"
+            alt="..."
+            width={props.width}
+          />
+          <div className="carousel-caption d-none d-md-block">
+            <h5>Spring</h5>
+            <p>Minha principal framework para desenvolvimento back-end</p>
           </div>
         </div>
       </div>

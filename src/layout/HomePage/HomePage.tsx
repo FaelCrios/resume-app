@@ -1,6 +1,7 @@
 import { type } from "os";
 import { Competencia } from "./Components/Competencia";
 import { Carousel } from "./Components/Carousel";
+import { PrincipaisProjetos } from "./PrincipaisProjetos";
 
 export const Homepage = () => {
   return (
@@ -11,9 +12,8 @@ export const Homepage = () => {
             src={require("../../Images/PublicImages/profile-pic.png")}
             width="300"
           />
-
-          <div className="display-6 fw-bold">Um pouco mais sobre mim </div>
-          <p className="fs-5 p-3">
+          <div className="display-7 fw-bold fs-4">Um pouco mais sobre mim </div>
+          <p className="fs-7 p-3">
             Olá me chamo Rafael, atualmente, estou cursando o terceiro ano da
             minha formação em Sistemas de informação na Universidade Estadual
             Paulista - Unesp. Estou sempre em busca de atualização e
@@ -26,28 +26,39 @@ export const Homepage = () => {
           <div className="conteiner-fluid p-2 mb-2 border-top">
             <div>
               <h2 className="pb-3">Principais competências</h2>
-              <Carousel img="java-logo-1.png" img2={"ts-logo-512.png"} img3={"pngwing.com (1).png"} img4={"mongoDbWorkshop.png"} width="200" />
-              {/* <div className="row p-2">
-                <Competencia
-                  img="java-logo-1.png"
-                  competencia="Java"
-                  parafrago="Possuo um pouco mais de um ano e meio desenvolvendo em Java"
-                  width="150"
-                />
-
-                <Competencia
-                  img="pngwing.com (1).png"
-                  competencia="React.js"
-                  parafrago="Possuo um pouco mais de um ano e meio desenvolvendo em React.js"
-                  width="150"
-                />
-                <Competencia
-                  img="ts-logo-512.png"
-                  competencia="TypeScript"
-                  parafrago="Possuo um pouco mais de um ano desenvolvendo em TypeScript"
-                  width="150"
-                />
-              </div> */}
+              <Carousel
+                img="java-logo-1.png"
+                img2={"ts-logo-512.svg"}
+                img3={"react.png"}
+                img4={"spring.svg"}
+                width="200"
+              />
+            </div>
+            <div>
+              <h2 className=" container-fluid pt-5">Principais Projetos</h2>
+            </div>
+            <div>
+              <div className="row align-items-md-stretch">
+                <div className="col-md-6">
+                  <PrincipaisProjetos
+                    titulo="Aplicativo JavaFx com Jdbc"
+                    texto="Aplicação inteira feita com Java,
+                     e JavaFx para simular uma plataforma de cadastro de uma loja de departamento,
+                      sendo possivel cadastrar seus clientes e vendedores"
+                    url="projeto1"
+                    github="https://github.com/FaelCrios/workshop-javafx-jdbc"
+                  />
+                </div>
+                <div className="col-md-6">
+                  <PrincipaisProjetos
+                    titulo="Api Restfull com Spring Boot"
+                    texto="O projeto se baseia em um sistema de cadastro para médicos e pacientes dentro de um hospital.
+                     Sistema feito em Java com Java Spring Boot e visando as boas práticas de produção de software."
+                    url="projeto2"
+                    github="https://github.com/FaelCrios/Spring-boot-api-hospital"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
