@@ -6,7 +6,7 @@ export const Projetos = () => {
       <div className="conteiner-fluid p-2 mb-2 border-top">
         <div className="">
           <h2 className="p-2 fw-bold">Todos os meus projetos</h2>
-          <div className="row align-items-md-stretch">
+          <div className="row align-items-md-stretch pt-2">
             <ProjetoUnitario
               url="https://github.com/FaelCrios/workshop-javafx-jdbc"
               img="workshop-java-jdbc.png"
@@ -26,13 +26,32 @@ export const Projetos = () => {
               A aplicacação em questão é um sistema simples de comentarios em posts para estudos de como funciona a integração com MongoDB"
               width="300"
             />
-          </div>
-          <div className="row align-items-md-stretch mt-5">
-          <ProjetoUnitario
+            <ProjetoUnitario
               url="https://github.com/FaelCrios/Spring-boot-api-hospital"
               img="SpringApiHospital.png"
               titulo="SPRING-BOOT-API-HOSPITAL"
               paragrafo="O projeto se baseia em um sistema de cadastro para médicos e pacientes dentro de um hospital. Sistema feito em Java com Java Spring Boot e visando as boas práticas de produção de software."
+              width="300"
+            />
+            <ProjetoUnitario
+              url="https://github.com/FaelCrios/Projeto-de-Jogo-em-servidor---Socket"
+              img="jogoWebSocket.png"
+              titulo="JogoWebSocket-Multiplayer "
+              paragrafo="O projeto se trata de um jogo desenvolvido na faculdade para o aprendizado de threads e processos web socket, desenvolvido com JavaSwing uma widget toolkit GUI."
+              width="300"
+            />
+            <ProjetoUnitario
+              url="https://github.com/FaelCrios/workshop-springboot3-jpa"
+              img="sprinbootJpa.png"
+              titulo="SpringBoot JPA "
+              paragrafo="Desenvolvido com o propósito de consolidar o conhecimento em Java e JPA, se trata de um console para cadastro de informações"
+              width="300"
+            />
+            <ProjetoUnitario
+              url="https://github.com/FaelCrios/ProjetoCondado"
+              img="condadoFoto.png"
+              titulo="Forum de Senhor dos anéis - Condado"
+              paragrafo="Desenvolvido em uma maratona de programação, este projeto foi desenvolvido com React.js e Next com o intuito de ser um forum e um bate papo"
               width="300"
             />
           </div>
