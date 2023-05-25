@@ -1,8 +1,9 @@
 import { type } from "os";
 import { Competencia } from "./Components/Competencia";
 import { Carousel } from "./Components/Carousel";
-import { PrincipaisProjetos } from "./PrincipaisProjetos";
+import { PrincipaisProjetos } from "./Components/PrincipaisProjetos";
 import { Formacoes } from "./Components/Formacoes";
+import { FormacoesInverso } from "./Components/FormacoesInverso";
 
 export const Homepage = () => {
   return (
@@ -84,13 +85,61 @@ export const Homepage = () => {
             </div>
           </div>
           <div className="container-fluid border-top">
-            <h2 className="mt-5" id="pformacoes">Principais formações</h2>
+            <h2 className="mt-5" id="pformacoes">
+              Principais formações
+            </h2>
             <Formacoes
+              img="unesplogo.png"
+              width="200"
+              titulo="Formação acadêmica: Bacharelado em Sistemas de informação
+              "
+              texto="Atualmente estou em meu terceiro ano, com previsão de formação para dezembro de 2024. Minha formação tem foco no estudo de computação e suas bases teóricas e também o estudo de gestão para gerenciamento de projetos e empresas"
+            />
+            <FormacoesInverso
               img="javaCertificado.jpg"
               width="300"
-              titulo="Java"
+              titulo="Java completo 2023 Programação Orientada a Objetos + Projetos"
               texto="
             O curso é focado nos fundamentos da linguagem Java e a programação orientada a objetos. Ele aborda conceitos essenciais, como classes, objetos, herança, polimorfismo e encapsulamento. Além disso, possui fundamentação sobre as frameworks: JDBC, JavaFX, SpringBoot, JPA / Hibernate, Spring Data JPA, Spring Data MongoDB e suas ferramentas de uso: Git / Github e Maven"
+            />
+            <Formacoes
+              img="certSpringBoot.png"
+              width="300"
+              titulo="Formação: Java e Spring Boot"
+              texto="Formação focada em Java Spring Boot, sendo usado como ferramenta de desenvolvimento para aplicativos web e microserviços com Spring Framework. Esta formação forneceu os conceitos sobre utilização de testes unitários para aplicações, utilizações de boas práticas SOLID para desenvolvimento e conceitos de documentação e versionamento de projeto, e por fim utilização de JWT para segurança de projeto"
+            />
+            <FormacoesInverso
+              img="sqlCerti.png"
+              width="300"
+              titulo="Consultas SQL: avançando no SQL com MySQL"
+              texto=" Formação com foco no aprendizado de SQL com o uso de MySql, começando do básico e seguindo até conteúdos mais avançados.
+              " 
+            />
+            <Formacoes
+              img="dockerCerti.png"
+              width="300"
+              titulo="Docker: criando e gerenciando containers"
+              texto="Formação que fornece o conhecimento básico para utilização de Docker e seus containers. Ensinando como s subir um container, criar e personalizar o mesmo e conceitos de persistência. Todos esses pontos utilizando o Docker Compose"
+            />
+            <FormacoesInverso
+              img="ReactCerti.png"
+              width="300"
+              titulo="React com JavaScript: lidando com arquivos estáticos"
+              texto="Formação para o aprendizado de conceitos básicos para utilização de React.js, para entender organização de código e componentização"
+            />
+            <Formacoes
+              img="reactNativeCerti.png"
+              width="300"
+              titulo="React Native: utilizando e criando Hooks
+              "
+              texto="Formação para o aprendizado de React Native, fornecendo base para o desenvolvimento de aplicações mobile. Esta formação tem foco na criação de hooks personalizados"
+            />
+            <FormacoesInverso
+              img="ScrumCerti.png"
+              width="300"
+              titulo="Scrum: agilidade em seu projeto
+              "
+              texto="Formação para o aprendizado de conceitos de metodologias ágeis, fornecendo base de conhecimento sobre processos ágeis, aplicações no mercado e como  melhorar entregas e desempenho do time"
             />
           </div>
         </div>
