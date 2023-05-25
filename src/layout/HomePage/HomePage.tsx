@@ -2,6 +2,7 @@ import { type } from "os";
 import { Competencia } from "./Components/Competencia";
 import { Carousel } from "./Components/Carousel";
 import { PrincipaisProjetos } from "./PrincipaisProjetos";
+import { Formacoes } from "./Components/Formacoes";
 
 export const Homepage = () => {
   return (
@@ -23,6 +24,27 @@ export const Homepage = () => {
             profissional é fundamental para alcançar sucesso em qualquer
             carreira.
           </p>
+
+          <div className="d-inline-flex align-items-center pb-2">
+            <div className="col p-2">
+              <a href="https://www.linkedin.com/in/rafael-colin-rios/">
+                <img
+                  src={require("../../Images/PublicImages/LI-In-Bug.png")}
+                  width="50"
+                  height="46"
+                />
+              </a>
+            </div>
+            <div className="col p-2">
+              <a href="https://github.com/FaelCrios">
+                <img
+                  src={require("../../Images/PublicImages/github-mark.png")}
+                  width="48"
+                  height="48"
+                />
+              </a>
+            </div>
+          </div>
           <div className="conteiner-fluid p-2 mb-2 border-top">
             <div>
               <h2 className="pb-3">Principais competências</h2>
@@ -60,6 +82,16 @@ export const Homepage = () => {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="container-fluid border-top">
+            <h2 className="mt-5">Principais formações</h2>
+            <Formacoes
+              img="javaCertificado.jpg"
+              width="300"
+              titulo="Java"
+              texto="
+            O curso é focado nos fundamentos da linguagem Java e a programação orientada a objetos. Ele aborda conceitos essenciais, como classes, objetos, herança, polimorfismo e encapsulamento. Além disso, possui fundamentação sobre as frameworks: JDBC, JavaFX, SpringBoot, JPA / Hibernate, Spring Data JPA, Spring Data MongoDB e suas ferramentas de uso: Git / Github e Maven"
+            />
           </div>
         </div>
       </div>
