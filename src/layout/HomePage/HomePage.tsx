@@ -1,9 +1,9 @@
-import { type } from "os";
-import { Competencia } from "./Components/Competencia";
+
 import { Carousel } from "./Components/Carousel";
 import { PrincipaisProjetos } from "./Components/PrincipaisProjetos";
 import { Formacoes } from "./Components/Formacoes";
 import { FormacoesInverso } from "./Components/FormacoesInverso";
+import { Experiencias } from "./Components/Experiencias";
 
 export const Homepage = () => {
   return (
@@ -46,9 +46,10 @@ export const Homepage = () => {
               </a>
             </div>
           </div>
+          {/* Competencias */}
           <div className="conteiner-fluid p-2 mb-2 border-top">
+            <h2 className="pb-3">Principais competências</h2>
             <div>
-              <h2 className="pb-3">Principais competências</h2>
               <Carousel
                 img="java-logo-1.png"
                 img2={"ts-logo-512.svg"}
@@ -84,7 +85,23 @@ export const Homepage = () => {
               </div>
             </div>
           </div>
-          <div className="container-fluid border-top">
+          {/* Experiencias */}
+          <div className="container-fluid p-2 mb-2 border-top">
+            <h2 className="mt-5" id="pformacoes">
+              Experiências
+            </h2>
+            <Experiencias
+              titulo="Kyraly Marketing Digital"
+              texto="Realiza implementações de SEO nos CMS: VTEX, Shopify, Nuvemshop, VNDA, WordPress, dentre outros...
+Realiza implementações manuais do escopo de SEO técnico proposto por analistas da área com auxílio de colaborador mais senior
+Elaboração de scripts de forma manual e automatizada, nas stacks: HTML, CSS3, JavaScript, PhP e Liquid
+Pesquisa soluções em documentações
+Acompanha na implementação de soluções de colaboradores mais experientes"
+              competencias="Java · PHP · HTML5 · Inglês · CSS · JavaScript · Liquid · Vtex · Shopify"
+            />
+          </div>
+          {/* Formações */}
+          <div className="ontainer-fluid p-2 mb-2 border-top">
             <h2 className="mt-5" id="pformacoes">
               Principais formações
             </h2>
@@ -113,7 +130,7 @@ export const Homepage = () => {
               width="300"
               titulo="Consultas SQL: avançando no SQL com MySQL"
               texto=" Formação com foco no aprendizado de SQL com o uso de MySql, começando do básico e seguindo até conteúdos mais avançados.
-              " 
+              "
             />
             <Formacoes
               img="dockerCerti.png"
