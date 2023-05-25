@@ -84,7 +84,7 @@ export const Homepage = () => {
             </div>
           </div>
           <div className="container-fluid border-top">
-            <h2 className="mt-5" id="scrollspyHeading1">Principais formações</h2>
+            <h2 className="mt-5" id="pformacoes">Principais formações</h2>
             <Formacoes
               img="javaCertificado.jpg"
               width="300"

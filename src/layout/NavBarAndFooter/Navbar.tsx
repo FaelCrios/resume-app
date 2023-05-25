@@ -11,7 +11,7 @@ export const Navbar = () => {
             </NavLink>
           </div>
           <div>
-            <a className='nav-link text-light fs-2' href="#scrollspyHeading1">Principais Formações</a>
+            <a className='nav-link text-light fs-2' href="#pformacoes">Principais Formações</a>
           </div>
           <div>
           <NavLink to="/projetos" className="nav-link text-light fs-2">
