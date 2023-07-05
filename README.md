@@ -24,6 +24,12 @@ npm install
 npm run 
 
 ```
+![image](https://github.com/FaelCrios/resume-app/assets/78519799/21ae0ea2-daed-4331-b21a-ff9934756552)
+
+#Mobile version
+
+![image](https://github.com/FaelCrios/resume-app/assets/78519799/eb36d796-8199-44fe-bd9f-6bc4f78bca6f) ![image](https://github.com/FaelCrios/resume-app/assets/78519799/421e1997-843d-41bf-9dd8-38dbb95b0f25)
+
 
 
 # Autor
