@@ -1,4 +1,3 @@
-
 import { Carousel } from "./Components/Carousel";
 import { PrincipaisProjetos } from "./Components/PrincipaisProjetos";
 import { Formacoes } from "./Components/Formacoes";
@@ -157,6 +156,26 @@ Acompanha na implementação de soluções de colaboradores mais experientes"
               titulo="Scrum: agilidade em seu projeto
               "
               texto="Formação para o aprendizado de conceitos de metodologias ágeis, fornecendo base de conhecimento sobre processos ágeis, aplicações no mercado e como  melhorar entregas e desempenho do time"
+            />
+            <Formacoes
+              img="cert_java_docker.jpg"
+              width="300"
+              titulo="REST API's RESTFul do 0 à AWS c. Spring Boot 3 Java e Docker
+              "
+              texto="Formação para o aprendizado de Java com Spring Boot 3, e desenvolvimento de aplicações mais complexas utilizando Docker e AWS para implementação"
+            />
+            <FormacoesInverso
+              img="aws-machine-learning-foundations.png"
+              width="300"
+              titulo="AWS Academy Graduate - AWS Academy Machine Learning Foundations"
+              texto="O curso AWS Academy Graduate - AWS Academy Machine Learning Foundations é um programa de formação que fornece uma base sólida em aprendizado de máquina, abrangendo conceitos, algoritmos e implementação na plataforma AWS. "
+            />
+            <Formacoes
+              img="aws-cloud-foundations.png"
+              width="300"
+              titulo="AWS Academy Graduate - AWS Academy Cloud Foundations"
+              texto="
+              O curso AWS Academy Graduate - AWS Academy Cloud Foundations é um programa de formação que oferece uma introdução abrangente aos fundamentos da computação em nuvem na AWS. Os participantes aprendem conceitos como infraestrutura como serviço (IaaS), plataforma como serviço (PaaS) e software como serviço (SaaS)."
             />
           </div>
         </div>

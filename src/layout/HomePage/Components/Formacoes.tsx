@@ -6,7 +6,7 @@ export const Formacoes: React.FC<{
 }> = (props) => {
   return (
     <div className="row g-0 mt-3 border-top bg-body-secondary position-relative rounded-5">
-      <div className="col-md-5 mb-md-0 p-md-4">
+      <div className="col-md-6 mb-md-0 p-md-4">
         <img
           src={require(`../../../Images/PublicImages/Certicados/${props.img}`)}
           className=""
@@ -14,7 +14,7 @@ export const Formacoes: React.FC<{
           alt="..."
         />
       </div>
-      <div className="col-md-6 p-4 ps-md-0">
+      <div className="col-md-6 mb-md-0 p-md-4">
         <h5 className="mt-4 fs-4 fw-bold">{props.titulo}</h5>
         <p>{props.texto}</p>
       </div>
