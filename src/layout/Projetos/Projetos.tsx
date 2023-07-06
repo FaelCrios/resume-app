@@ -54,6 +54,20 @@ export const Projetos = () => {
               paragrafo="Desenvolvido em uma maratona de programação, este projeto foi desenvolvido com React.js e Next com o intuito de ser um forum e um bate papo"
               width="300"
             />
+            <ProjetoUnitario
+              url="https://github.com/FaelCrios/sol-poente"
+              img="sol-poente.png"
+              titulo="Site - Sol Poente"
+              paragrafo="Este projeto foi desenvolvido inteiramente com TypeScript e React.js Se trata de um site para um projeto criativo que estou criando, servindo como um forúm de conteudo para um RPG autoral"
+              width="300"
+            />
+            <ProjetoUnitario
+              url="https://github.com/FaelCrios/api-sol-poente"
+              img="sol-poente.png"
+              titulo="Api RestFul - Sol Poente"
+              paragrafo="Este projeto foi desenvolvido inteiramente com Java e SpringBoot3, se trata de uma API para complementar o projeto do front-end do website."
+              width="300"
+            />
           </div>
         </div>
       </div>

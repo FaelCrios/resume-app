@@ -7,7 +7,7 @@ export const ProjetoUnitario: React.FC<{
 }> = (props) => {
   return (
     <div className="col-md-6">
-    <div className="h-100 p-5 bg-body-tertiary border rounded-3 py-5 px-4">
+    <div className="h-100 p-5 bg-body-tertiary border rounded-3 py-5 px-3">
       <a
         href={props.url}
       >
